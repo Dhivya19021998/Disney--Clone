@@ -9,14 +9,19 @@ html {
 body {
   background-color: #040714;
   color: #f9f9f9;
-
-  font-family: Avenir-Roman, sans-serif;
+  
+  font-family: Avenir-Roman,sans-serif;
   margin: 0;
   padding: 0;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: top;
+
 }
 
 a {
   color: #f9f9f9;
+  cursor: pointer;
   text-decoration: none;
 }
 
@@ -25,13 +30,21 @@ a {
     font-size: 16px;
   }
 }
+
 @media only screen and (min-width: 480px) and (max-width: 768px) {
   body {
     font-size: 15px;
   }
 }
+
 @media only screen and (max-width: 479px) {
   body {
       font-size: 14px;
   }
+}
+
+@media only screen and (max-width: 479px){
+body {
+    font-size: 14px;
+}
 }
